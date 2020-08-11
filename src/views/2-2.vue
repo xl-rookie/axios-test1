@@ -1,23 +1,18 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 import axios from 'axios'
 export default {
-  name: 'Home',
+  name: 'axios2-2',
   components: {
-    HelloWorld
   },
   created () {
     axios.get('/data.json', {
       params: {
-        id: 12
+        id: 14
       }
     }).then((res) => {
       console.log(res)
@@ -26,7 +21,7 @@ export default {
       method: 'get',
       url: '/data.json',
       params: {
-        id: 13
+        id: 15
       }
     }).then((res) => {
       console.log(res)
