@@ -2,7 +2,7 @@
 
 ## axios的说明
 ```
-使用axios
+使用axios的请求方法
 ```
 ## Project setup
 ```
