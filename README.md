@@ -1,9 +1,7 @@
 # axios-test
 
-## axios的说明
-```
-使用axios的请求方法
-```
+## axios请求方式，拦截器，错误处理
+
 ## Project setup
 ```
 npm install
@@ -23,6 +21,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
