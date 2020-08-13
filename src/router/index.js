@@ -22,7 +22,23 @@ const routes = [
     path: '/2-2',
     name: 'axios请求方法',
     component: () => import('../views/2-2.vue')
+  },
+  {
+    path: '/2-3',
+    name: 'axios并发请求',
+    component: () => import('../views/2-3.vue')
+  },
+  {
+    path: '/3-1',
+    name: 'axios创建实例',
+    component: () => import('../views/3-1.vue')
+  },
+  {
+    path: '/3-4',
+    name: 'axios错误请求',
+    component: () => import('../views/3-4.vue')
   }
+
 ]
 
 const router = new VueRouter({
